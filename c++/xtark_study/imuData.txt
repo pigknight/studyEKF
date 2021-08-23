@@ -1,0 +1,24 @@
+[INFO] [1627736824.663766]: /gwf_xtark_pose_ekf,receive Imu:  header: 
+  seq: 835
+  stamp: 
+    secs: 1627736824
+    nsecs: 660248665
+  frame_id: "base_imu_link"
+orientation: #需要四元数转欧拉角
+  x: 0.0
+  y: 0.0
+  z: 0.104615249499
+  w: 0.994512769939
+orientation_covariance: [1000000.0, 0.0, 0.0, 
+                         0.0, 1000000.0, 0.0, 
+                         0.0, 0.0, 0.02]   # 3 x 3 协方差矩阵
+angular_velocity: 
+  x: -0.00106523301866
+  y: -0.00106523301866
+  z: -0.00106523301866
+angular_velocity_covariance: [1000000.0, 0.0, 0.0, 0.0, 1000000.0, 0.0, 0.0, 0.0, 1000000.0]
+linear_acceleration: 
+  x: 0.37802734375
+  y: 0.0287109375
+  z: 9.00925292969
+linear_acceleration_covariance: [0.01, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
